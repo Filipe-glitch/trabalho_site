@@ -67,14 +67,13 @@ section {
     background-color: #222;
 }
 
-@media (max-width: 768px){
 .menu ul {
     display: flex;
 }
 
 .menu ul.ativo {
     display: block;
-}}
+}
 
 .principal {
     display: flex;
@@ -99,13 +98,12 @@ section {
     background-color: #3e5552;
 }
 
-@media (max-width: 768px){
 .militar {
     display: flex;
     align-items: center;
     gap: 20px;
 }
-}
+
 .texto-militar {
     flex: 1;
 }
