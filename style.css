@@ -98,17 +98,14 @@ section {
     background-color: #3e5552;
 }
 
-.militar {
-    display: flex;
-    align-items: center;
-    gap: 20px;
-}
-
-.texto-militar {
-    flex: 1;
-}
-
 .marinha {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+    padding: 10px;
+}
+
+.marinha img{
     width: 200px;
     border-radius: 10px;
 }
