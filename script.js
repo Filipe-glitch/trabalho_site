@@ -1,3 +1,4 @@
+
 function alternarTema() {
     document.body.classList.toggle("dark");
 }
@@ -6,9 +7,6 @@ function enviarDados() {
     let nome = document.getElementById("nome").value.trim();
     let email = document.getElementById("email").value.trim();
     let mensagem = document.getElementById("mensagem").value.trim();
-    localStorage.setItem("nome", nome);
-    localStorage.setItem("email", email);
-    localStorage.setItem("mensagem", mensagem);
 
     // na parte de validação eu coloquei um aviso para caso o usuário não digite nada
     if (nome === "" || email === "" || mensagem === "") {
@@ -29,6 +27,7 @@ function enviarDados() {
     document.getElementById("mensagem").value = "";
 }
 
+// um menu que decidi colocar
 function toggleMenu() {
     document.querySelector(".menu ul").classList.toggle("ativo");
 }
